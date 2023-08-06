@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.footer {
+    .container {
+        .row {
+            .col {
+                .ms-3 {
+                    font-size: larger;
+                    font-family: 'Kaushan Script', cursive;
+                }
+            }
+        }
+    }
+}
+
+.input-group {
+    .btn-success:hover {
+        transition: 0.4s;
+        transform: translate(5px);
+    }
+}

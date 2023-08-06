@@ -1,0 +1,26 @@
+#favourite-section {
+    .row {
+        .col {
+            .card {
+                .row {
+                    .col {
+                        .details-link {
+                            color: black;
+                            text-decoration: none;
+
+                        }
+                    }
+                }
+
+                &:hover {
+                    border: 1px solid #50b161ff !important;
+                    // text-decoration: dashed !important;
+                }
+
+                &:hover .item-title {
+                    text-decoration:underline;
+                }
+            }
+        }
+    }
+}
